@@ -1,45 +1,19 @@
 inherited Form2_LgXhdpiTb: TForm2_LgXhdpiTb
   ClientHeight = 829
   DesignerMasterStyle = 0
-  inherited btnKembali: TButton
-    Position.X = 24.000000000000000000
-    Position.Y = 752.000000000000000000
-    Size.Width = 113.000000000000000000
-    Size.Height = 44.000000000000000000
-    Size.PlatformDefault = False
-  end
-  inherited inputTinggiBadan: TEdit
-    Position.X = 169.000000000000000000
-    Position.Y = 108.000000000000000000
-    Size.Width = 288.000000000000000000
-    Size.Height = 32.000000000000000000
-  end
-  inherited Label2: TLabel
-    inherited Label3: TLabel
-      Size.Width = 129.000000000000000000
-      Size.Height = 23.000000000000000000
-      Size.PlatformDefault = False
-      inherited Label4: TLabel
-        Position.X = 136.000000000000000000
-        Position.Y = 97.000000000000000000
-        Size.Width = 145.000000000000000000
-        Size.Height = 23.000000000000000000
-        Size.PlatformDefault = False
+  inherited mainLayoutBMI: TLayout
+    Size.Height = 829.000000000000000000
+    inherited Rectangle1: TRectangle
+      Size.Height = 829.000000000000000000
+      inherited outputBMI: TEdit
+        Size.Height = 32.000000000000000000
+      end
+      inherited inputBeratBadan: TEdit
+        Size.Height = 32.000000000000000000
+      end
+      inherited inputTinggiBadan: TEdit
+        Size.Height = 32.000000000000000000
       end
     end
-  end
-  inherited inputBeratBadan: TEdit
-    Position.X = 169.000000000000000000
-    Position.Y = 172.000000000000000000
-    Size.Width = 288.000000000000000000
-    Size.Height = 32.000000000000000000
-  end
-  inherited outputBMI: TEdit
-    Position.X = 88.000000000000000000
-    Position.Y = 309.000000000000000000
-    Size.Height = 32.000000000000000000
-  end
-  inherited btnKalkulasi: TButton
-    Position.X = 168.000000000000000000
   end
 end

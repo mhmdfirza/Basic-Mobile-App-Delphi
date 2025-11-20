@@ -5,31 +5,34 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation, FMX.Edit, bmiForm;
+  FMX.Controls.Presentation, FMX.Edit, bmiForm, FMX.Objects, FMX.Layouts;
 type
   TForm1 = class(TForm)
-    buttonTampil1: TButton;
-    inputNama: TEdit;
-    inputKelas: TEdit;
-    txtNama: TLabel;
-    Label1: TLabel;
+    aLayout: TLayout;
+    Rectangle1: TRectangle;
     inputAngka1: TEdit;
     inputAngka2: TEdit;
     outputHasil: TEdit;
+    buttonKalkulator: TButton;
+    buttonTampil1: TButton;
+    buttonNext: TButton;
+    inputKelas: TEdit;
+    inputNama: TEdit;
+    judul: TLabel;
+    rbBagi: TRadioButton;
+    Label5: TLabel;
+    rbKali: TRadioButton;
+    rbKurang: TRadioButton;
+    rbTambah: TRadioButton;
+    S: TLabel;
+    Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
-    judul: TLabel;
-    Label5: TLabel;
-    rbTambah: TRadioButton;
-    rbKurang: TRadioButton;
-    buttonKalkulator: TButton;
-    buttonNext: TButton;
-    rbKali: TRadioButton;
-    rbBagi: TRadioButton;
     procedure buttonTampil1Click(Sender: TObject);
     procedure buttonKalkulatorClick(Sender: TObject);
     procedure buttonNextClick(Sender: TObject);
+    procedure Rectangle1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -70,7 +73,6 @@ begin
     end;
     hasil := a / b
   end;
-
 
 end;
 

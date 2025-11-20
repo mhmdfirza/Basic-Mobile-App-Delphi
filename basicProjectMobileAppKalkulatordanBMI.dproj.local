@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2025/11/20 09:04:16.919,=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/11/20 09:27:57.162,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\mainForm.pas=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/11/20 09:27:57.162,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\mainForm.fmx=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2025/11/20 10:51:49.363,=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/11/20 10:56:12.176,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\bmiFOrm.pas=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/11/20 10:56:12.176,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\bmiFOrm.fmx=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2025/11/20 10:58:26.252,=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2025/11/20 10:59:06.583,=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/11/20 10:59:14.152,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\bmiForm.fmx=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2025/11/20 10:59:14.152,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\bmiForm.pas=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/11/20 15:26:54.150,C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\testAndroid\basicProjectMobileAppKalkulatordanBMI.dproj=C:\Users\BOE-TI\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile Android64="ae73f4df"/>
+  </ActiveMobileDevice>
+</BorlandProject>

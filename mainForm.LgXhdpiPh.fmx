@@ -2,59 +2,26 @@ inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
   ClientHeight = 695
   ClientWidth = 450
   DesignerMasterStyle = 0
-  inherited buttonTampil1: TButton
-    Position.X = 144.000000000000000000
-    Position.Y = 196.000000000000000000
-  end
-  inherited inputNama: TEdit
-    Size.Height = 32.000000000000000000
-  end
-  inherited inputKelas: TEdit
-    Size.Height = 32.000000000000000000
-  end
-  inherited txtNama: TLabel
-    Position.Y = 126.000000000000000000
-    inherited Label1: TLabel
-      Position.Y = 56.000000000000000000
-      inherited Label2: TLabel
-        Position.Y = 104.000000000000000000
-        inherited Label3: TLabel
-          inherited Label4: TLabel
-            Position.X = -17.000000000000000000
-            Position.Y = 120.000000000000000000
+  inherited aLayout: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited Rectangle1: TRectangle
+      Fill.Kind = Bitmap
+      inherited inputAngka1: TEdit
+        Size.Height = 32.000000000000000000
+        inherited inputAngka2: TEdit
+          Size.Height = 32.000000000000000000
+          inherited outputHasil: TEdit
+            Size.Height = 32.000000000000000000
           end
         end
       end
-    end
-  end
-  inherited inputAngka1: TEdit
-    Size.Height = 32.000000000000000000
-    inherited inputAngka2: TEdit
-      Size.Height = 32.000000000000000000
-      inherited outputHasil: TEdit
-        Position.X = -16.000000000000000000
-        Position.Y = 97.000000000000000000
+      inherited inputKelas: TEdit
+        Size.Height = 32.000000000000000000
+      end
+      inherited inputNama: TEdit
         Size.Height = 32.000000000000000000
       end
     end
-  end
-  inherited judul: TLabel
-    Size.Width = 450.000000000000000000
-  end
-  inherited Label5: TLabel
-    Position.X = 7.000000000000000000
-    Position.Y = 372.000000000000000000
-  end
-  inherited rbTambah: TRadioButton
-    Position.X = 97.000000000000000000
-    Position.Y = 374.000000000000000000
-  end
-  inherited buttonKalkulator: TButton
-    Position.X = 120.000000000000000000
-    Position.Y = 536.000000000000000000
-  end
-  inherited buttonNext: TButton
-    Position.X = 344.000000000000000000
-    Position.Y = 504.000000000000000000
   end
 end

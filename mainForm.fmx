@@ -1,184 +1,198 @@
 object Form1: TForm1
-  Left = 712
-  Top = 225
+  Left = 690
+  Top = 210
   Caption = 'Z'
-  ClientHeight = 533
+  ClientHeight = 579
   ClientWidth = 480
   Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  Left = 712
-  Top = 225
+  Left = 690
+  Top = 210
   DesignerMasterStyle = 0
-  object buttonTampil1: TButton
-    Position.X = 168.000000000000000000
-    Position.Y = 194.000000000000000000
-    Size.Width = 201.000000000000000000
-    Size.Height = 31.000000000000000000
+  object aLayout: TLayout
+    Align = Client
+    Size.Width = 480.000000000000000000
+    Size.Height = 579.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    Text = 'Tampilkan'
-    TextSettings.Trimming = None
-    OnClick = buttonTampil1Click
-  end
-  object inputNama: TEdit
-    Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 1
-    Position.X = 113.000000000000000000
-    Position.Y = 111.000000000000000000
-    Size.Width = 337.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-  end
-  object inputKelas: TEdit
-    Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 2
-    Position.X = 113.000000000000000000
-    Position.Y = 156.000000000000000000
-    Size.Width = 337.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-  end
-  object txtNama: TLabel
-    Position.X = 24.000000000000000000
-    Position.Y = 116.000000000000000000
-    Size.Width = 65.000000000000000000
-    Size.Height = 17.000000000000000000
-    Size.PlatformDefault = False
-    Text = 'Nama'
-    TabOrder = 3
-    object Label1: TLabel
-      Position.Y = 40.000000000000000000
-      Size.Width = 65.000000000000000000
-      Size.Height = 17.000000000000000000
+    object Rectangle1: TRectangle
+      Align = Scale
+      Fill.Color = claAzure
+      Size.Width = 480.000000000000000000
+      Size.Height = 579.000000000000000000
       Size.PlatformDefault = False
-      Text = 'Kelas'
-      TabOrder = 4
-      object Label2: TLabel
-        Position.Y = 128.000000000000000000
-        Size.Width = 65.000000000000000000
-        Size.Height = 17.000000000000000000
+      object inputAngka1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Position.X = 113.000000000000000000
+        Position.Y = 284.000000000000000000
+        Size.Width = 337.000000000000000000
+        Size.Height = 22.000000000000000000
         Size.PlatformDefault = False
-        Text = 'Operand 1'
-        TabOrder = 4
-        object Label3: TLabel
-          Position.Y = 48.000000000000000000
-          Size.Width = 65.000000000000000000
-          Size.Height = 17.000000000000000000
+        object inputAngka2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 5
+          Position.Y = 42.000000000000000000
+          Size.Width = 337.000000000000000000
+          Size.Height = 22.000000000000000000
           Size.PlatformDefault = False
-          Text = 'Operand 2'
-          TabOrder = 4
-          object Label4: TLabel
-            Position.Y = 72.000000000000000000
-            Size.Width = 65.000000000000000000
-            Size.Height = 17.000000000000000000
+          object outputHasil: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 5
+            Position.Y = 73.000000000000000000
+            Size.Width = 337.000000000000000000
+            Size.Height = 22.000000000000000000
             Size.PlatformDefault = False
-            Text = 'Hasil'
-            TabOrder = 4
           end
         end
       end
-    end
-  end
-  object inputAngka1: TEdit
-    Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 4
-    Position.X = 113.000000000000000000
-    Position.Y = 284.000000000000000000
-    Size.Width = 337.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-    object inputAngka2: TEdit
-      Touch.InteractiveGestures = [LongTap, DoubleTap]
-      TabOrder = 5
-      Position.Y = 42.000000000000000000
-      Size.Width = 337.000000000000000000
-      Size.Height = 22.000000000000000000
-      Size.PlatformDefault = False
-      object outputHasil: TEdit
+      object buttonKalkulator: TButton
+        Position.X = 168.000000000000000000
+        Position.Y = 440.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Tampilkan'
+        TextSettings.Trimming = None
+        OnClick = buttonKalkulatorClick
+      end
+      object buttonTampil1: TButton
+        Position.X = 168.000000000000000000
+        Position.Y = 194.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Tampilkan'
+        TextSettings.Trimming = None
+        OnClick = buttonTampil1Click
+      end
+      object buttonNext: TButton
+        Position.X = 24.000000000000000000
+        Position.Y = 528.000000000000000000
+        Size.Width = 105.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Kalkulator BMI'
+        TextSettings.Trimming = None
+        OnClick = buttonNextClick
+      end
+      object inputKelas: TEdit
         Touch.InteractiveGestures = [LongTap, DoubleTap]
-        TabOrder = 5
-        Position.Y = 73.000000000000000000
+        TabOrder = 4
+        Position.X = 113.000000000000000000
+        Position.Y = 156.000000000000000000
         Size.Width = 337.000000000000000000
         Size.Height = 22.000000000000000000
         Size.PlatformDefault = False
       end
+      object inputNama: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        Position.X = 113.000000000000000000
+        Position.Y = 111.000000000000000000
+        Size.Width = 337.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object judul: TLabel
+        Align = MostTop
+        StyledSettings = [Style, FontColor]
+        Size.Width = 480.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'PROGRAM MOBILE PERDANA'
+        TabOrder = 6
+      end
+      object rbBagi: TRadioButton
+        Position.X = 402.000000000000000000
+        Position.Y = 372.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = 'Bagi'
+      end
+      object Label5: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 370.000000000000000000
+        Text = 'Operator'
+        TabOrder = 8
+      end
+      object rbKali: TRadioButton
+        Position.X = 314.000000000000000000
+        Position.Y = 372.000000000000000000
+        Size.Width = 55.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        Text = 'Kali'
+      end
+      object rbKurang: TRadioButton
+        Position.X = 209.000000000000000000
+        Position.Y = 372.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 10
+        Text = 'Kurang'
+      end
+      object rbTambah: TRadioButton
+        Position.X = 113.000000000000000000
+        Position.Y = 372.000000000000000000
+        Size.Width = 64.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 11
+        Text = 'Tambah'
+      end
+      object S: TLabel
+        Position.X = 24.000000000000000000
+        Position.Y = 116.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Nama'
+        TabOrder = 12
+        object Label1: TLabel
+          Position.Y = 40.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Kelas'
+          TabOrder = 4
+          object Label2: TLabel
+            Position.Y = 128.000000000000000000
+            Size.Width = 65.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Operand 1'
+            TabOrder = 4
+            object Label3: TLabel
+              Position.Y = 48.000000000000000000
+              Size.Width = 65.000000000000000000
+              Size.Height = 17.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Operand 2'
+              TabOrder = 4
+              object Label4: TLabel
+                Position.Y = 72.000000000000000000
+                Size.Width = 65.000000000000000000
+                Size.Height = 17.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'Hasil'
+                TabOrder = 4
+              end
+            end
+          end
+        end
+      end
     end
-  end
-  object judul: TLabel
-    Align = MostTop
-    StyledSettings = [Style, FontColor]
-    Size.Width = 480.000000000000000000
-    Size.Height = 50.000000000000000000
-    Size.PlatformDefault = False
-    TextSettings.Font.Size = 30.000000000000000000
-    TextSettings.HorzAlign = Center
-    Text = 'PROGRAM MOBILE PERDANA'
-    TabOrder = 5
-  end
-  object Label5: TLabel
-    Position.X = 24.000000000000000000
-    Position.Y = 370.000000000000000000
-    Text = 'Operator'
-    TabOrder = 6
-  end
-  object rbTambah: TRadioButton
-    Position.X = 113.000000000000000000
-    Position.Y = 372.000000000000000000
-    Size.Width = 64.000000000000000000
-    Size.Height = 19.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 7
-    Text = 'Tambah'
-  end
-  object rbKurang: TRadioButton
-    Position.X = 209.000000000000000000
-    Position.Y = 372.000000000000000000
-    Size.Width = 65.000000000000000000
-    Size.Height = 19.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 8
-    Text = 'Kurang'
-  end
-  object buttonKalkulator: TButton
-    Position.X = 168.000000000000000000
-    Position.Y = 440.000000000000000000
-    Size.Width = 201.000000000000000000
-    Size.Height = 33.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 9
-    Text = 'Tampilkan'
-    TextSettings.Trimming = None
-    OnClick = buttonKalkulatorClick
-  end
-  object buttonNext: TButton
-    Position.X = 360.000000000000000000
-    Position.Y = 488.000000000000000000
-    Size.Width = 90.000000000000000000
-    Size.Height = 33.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 10
-    Text = 'Selanjutnya'
-    TextSettings.Trimming = None
-    OnClick = buttonNextClick
-  end
-  object rbKali: TRadioButton
-    Position.X = 314.000000000000000000
-    Position.Y = 372.000000000000000000
-    Size.Width = 55.000000000000000000
-    Size.Height = 19.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 11
-    Text = 'Kali'
-  end
-  object rbBagi: TRadioButton
-    Position.X = 402.000000000000000000
-    Position.Y = 372.000000000000000000
-    Size.Width = 48.000000000000000000
-    Size.Height = 19.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 12
-    Text = 'Bagi'
   end
 end

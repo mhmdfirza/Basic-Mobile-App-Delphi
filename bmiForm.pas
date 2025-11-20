@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit;
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit, FMX.Objects, FMX.Layouts;
 type
   TForm2 = class(TForm)
     btnKembali: TButton;
@@ -17,6 +17,8 @@ type
     inputBeratBadan: TEdit;
     outputBMI: TEdit;
     btnKalkulasi: TButton;
+    mainLayoutBMI: TLayout;
+    Rectangle1: TRectangle;
     procedure btnKembaliClick(Sender: TObject);
     procedure btnKalkulasiClick(Sender: TObject);
   private
