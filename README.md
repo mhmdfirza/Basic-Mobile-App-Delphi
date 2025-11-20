@@ -39,8 +39,4 @@ Fully designed for **Android** using modern multi-device components.
 - **Android SDK** for deployment  
 - IDE: **RAD Studio 12**
 
----
-
-## 📱 Mobile UI Screens (Optional)
-> Tambahkan screenshot Anda ke folder `/screenshots` lalu tampilkan di sini.
 
