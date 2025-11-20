@@ -1,4 +1,4 @@
-📱 Mobile Calculator Suite – Delphi 12 (FMX)
+# 📱 Mobile Calculator Suite – Delphi 12 (FMX)
 A simple yet functional **mobile application** built using **Delphi 12 FireMonkey (FMX)**.  
 This project contains **two mini tools** in a single mobile app:
 
@@ -9,9 +9,9 @@ Fully designed for **Android** using modern multi-device components.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
-🔢 Aritmetic Calculator
+### 🔢 Aritmetic Calculator
 - Input two numbers  
 - Choose operation via **RadioButton**  
 - Supports:  
@@ -21,7 +21,7 @@ Fully designed for **Android** using modern multi-device components.
   - Division (with divide-by-zero handling)  
 - Clean and simple UI
 
-⚖️ BMI Calculator
+### ⚖️ BMI Calculator
 - Input **height (cm)** and **weight (kg)**  
 - Instant BMI calculation  
 - Auto-generated category:
@@ -33,7 +33,7 @@ Fully designed for **Android** using modern multi-device components.
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Delphi 12 Athens**
 - **FireMonkey (FMX)** framework  
 - **Android SDK** for deployment  
@@ -41,6 +41,6 @@ Fully designed for **Android** using modern multi-device components.
 
 ---
 
-📱 Mobile UI Screens (Optional)
+## 📱 Mobile UI Screens (Optional)
 > Tambahkan screenshot Anda ke folder `/screenshots` lalu tampilkan di sini.
 
