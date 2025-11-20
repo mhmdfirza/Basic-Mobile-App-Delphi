@@ -1,0 +1,67 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  DesignerMasterStyle = 0
+  inherited buttonTampil1: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 225.000000000000000000
+  end
+  inherited inputNama: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited inputKelas: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited txtNama: TLabel
+    Position.Y = 126.000000000000000000
+    inherited Label1: TLabel
+      Position.Y = 56.000000000000000000
+      TabOrder = 3
+      inherited Label2: TLabel
+        Position.Y = 112.000000000000000000
+        Size.Width = 105.000000000000000000
+        TabOrder = 3
+        inherited Label3: TLabel
+          Size.Width = 105.000000000000000000
+          TabOrder = 3
+          inherited Label4: TLabel
+            Position.Y = 248.000000000000000000
+            TabOrder = 3
+          end
+        end
+      end
+    end
+  end
+  inherited inputAngka1: TEdit
+    Position.X = 152.000000000000000000
+    Size.Width = 298.000000000000000000
+    Size.Height = 32.000000000000000000
+    inherited inputAngka2: TEdit
+      Size.Width = 298.000000000000000000
+      Size.Height = 32.000000000000000000
+      inherited outputHasil: TEdit
+        Position.X = -39.000000000000000000
+        Position.Y = 241.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+  end
+  inherited rbTambah: TRadioButton
+    Position.X = 138.000000000000000000
+    Position.Y = 393.000000000000000000
+  end
+  inherited rbKurang: TRadioButton
+    Position.X = 138.000000000000000000
+    Position.Y = 436.000000000000000000
+    Size.Width = 96.000000000000000000
+  end
+  inherited buttonKalkulator: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 632.000000000000000000
+  end
+  inherited buttonNext: TButton
+    Position.X = 296.000000000000000000
+    Position.Y = 744.000000000000000000
+    Size.Width = 154.000000000000000000
+    Size.Height = 41.000000000000000000
+  end
+end

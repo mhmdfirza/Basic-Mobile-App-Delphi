@@ -1,0 +1,89 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 533
+  ClientWidth = 480
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnKembali: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 488.000000000000000000
+    TabOrder = 0
+    Text = 'Kembali'
+    TextSettings.Trimming = None
+    OnClick = btnKembaliClick
+  end
+  object Label1: TLabel
+    Align = MostTop
+    StyledSettings = [Style, FontColor]
+    Size.Width = 480.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Old English Text MT'
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Kalkulator bmi'
+    TabOrder = 1
+  end
+  object inputTinggiBadan: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 144.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 117.000000000000000000
+    Size.Width = 104.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Tinggi Badan (cm)'
+    TabOrder = 3
+    object Label3: TLabel
+      Position.Y = 64.000000000000000000
+      Text = 'Berat Badan (kg)'
+      TabOrder = 3
+      object Label4: TLabel
+        Position.Y = 96.000000000000000000
+        Text = 'Body Mass Index'
+        TabOrder = 3
+      end
+    end
+  end
+  object inputBeratBadan: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 144.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object outputBMI: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 144.000000000000000000
+    Position.Y = 277.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnKalkulasi: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Kalkulasi'
+    TextSettings.Trimming = None
+    OnClick = btnKalkulasiClick
+  end
+end

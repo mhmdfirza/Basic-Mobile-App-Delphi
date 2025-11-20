@@ -1,0 +1,40 @@
+inherited Form1_XLgXhdpiTb: TForm1_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 0
+  inherited inputNama: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited inputKelas: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited txtNama: TLabel
+    inherited Label1: TLabel
+      Position.X = -16.000000000000000000
+      inherited Label2: TLabel
+        Position.X = -16.000000000000000000
+        inherited Label3: TLabel
+          inherited Label4: TLabel
+            Position.X = 8.000000000000000000
+          end
+        end
+      end
+    end
+  end
+  inherited inputAngka1: TEdit
+    Size.Height = 32.000000000000000000
+    inherited inputAngka2: TEdit
+      Position.X = -63.000000000000000000
+      Size.Height = 32.000000000000000000
+      inherited outputHasil: TEdit
+        Position.X = 63.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+  end
+  inherited judul: TLabel
+    Anchors = [akLeft, akTop]
+    Size.Width = 800.000000000000000000
+    TextSettings.Font.Family = 'Script MT'
+  end
+end

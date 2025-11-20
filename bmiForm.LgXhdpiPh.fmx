@@ -1,0 +1,17 @@
+inherited Form2_LgXhdpiPh: TForm2_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 450.000000000000000000
+  end
+  inherited inputTinggiBadan: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited inputBeratBadan: TEdit
+    Size.Height = 32.000000000000000000
+  end
+  inherited outputBMI: TEdit
+    Size.Height = 32.000000000000000000
+  end
+end
